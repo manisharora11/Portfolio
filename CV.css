@@ -1,0 +1,326 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+
+	background-image: url("bground.jpeg");
+	font-size: 15px;
+	background-size: cover;
+	font-family: Arial,sans-serif;
+	line-height: 1.6em;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+ul{
+	list-style-type:none;
+}
+.container{
+	width:70%;
+	margin:auto;
+	overflow:visible;
+}
+.btn{
+	width: 300px;
+padding: 20px;
+cursor: pointer;
+font-weight: bold;
+font-size: 150%;
+background: #3366cc;
+color: #fff;
+border: 1px solid #3366cc;
+border-radius: 10px;
+
+}
+header{
+	margin-top: 100px;
+	color: black;
+	font-family: serif;
+}
+header .container{
+	display: flex;
+	justify-content: space-between;
+	height:100px;
+}
+#branding h1{
+
+	font-size: 40px;
+	color:#000;
+	width:500px;
+	height: 100px;
+	position: relative;
+	word-wrap: auto;
+	font-weight: bold;
+	
+}
+header nav ul li{
+	float:left;
+	padding:0 20px 0 20px;
+}
+header nav ul li:last-child{
+	padding-right: 0;
+
+}
+header nav ul li a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #707070;
+}
+
+header nav ul li a: hover{
+	text-decoration: underline;
+	text-decoration-color: blue;
+	background-color: grey;
+	opacity: 0.5;
+}
+
+w3-button w3-white w3-border w3-round-large{
+	color-fill: grey;
+	background-color: grey;
+}
+#hero-area{
+	margin-top:85px;
+}
+#hero-area.container{
+	width:500px;
+	display:flex;
+	justify-content: space-between;
+}
+#hero-area h3{
+	width:500px;
+	word-wrap: auto;
+	font-size: 25px;
+	color:#000;
+	margin-bottom: 35px;
+}
+#hero-area #hero-text{
+	width:100%;
+}
+.hero-bold{
+	font-weight: bold;
+	margin-right: 10px;
+}
+#hero-contact p{
+	margin-top: 10px;
+	width:200px;
+}
+
+#hero-social{
+	margin-top: 5px;
+}
+#hero-social ul li{
+	float:left;
+	padding:3px;
+}
+#hero-social #follow-me{
+		margin-top:3px;
+}
+#experience .container{
+	border-top:1px solid #elelel;
+	border-bottom: 1px solid #elelel;
+	padding:0 0 30px 0;
+	margin: 0px auto 30px auto;
+}
+#experience h2, #education h2,#contact h2, #projects h2, #courses h2{
+	font-size: 25px;
+	font-weight: bold; 
+	color: white;
+	background-color: black;
+	width:auto;
+	height:auto;
+	text-align: center;
+	opacity: 0.7;
+
+
+}
+#experience h3,#education h3, #courses h3, #projects h3{
+	margin-top: 50px;
+	color:black;
+	font-size:20px;
+	font-weight: bold;
+}
+#experience p,#education p, #courses p, #projects p{
+	margin-top: 15px;
+	line-height: 1.5em;
+}
+#education .container{
+		padding-bottom: 30px;
+		padding-top: 30px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		border-bottom: 1px solid #elelel; 
+}
+
+#courses .container{
+	border-top:1px solid #elelel;
+	border-bottom: 1px solid #elelel;
+	padding:0px 0 30px 0;
+	margin: 0 auto 30px auto;
+}
+
+#projects .container{
+	border-top:1px solid #elelel;
+	border-bottom: 1px solid #elelel;
+	padding:0px 0 30px 0;
+	margin: 0px auto 30px auto;
+}
+#contact form{
+	margin-top:55px;
+	} 
+
+#contact form input{
+		width:47%;
+		height:45px;
+		border:1px solid #bcbcbc;
+		padding-left: 10px;
+		color:#707070;
+		font-size: 14px;
+	}
+#contact .input-details{
+	display: flex;
+	justify-content: space-between;
+}
+
+#contact form textarea{
+	margin-top: 18px;
+	width:97%;
+	padding-left: 10px;
+	padding-top:10px;
+	color:#707070;
+	font-size: 14px;
+
+}
+#contact form .form-button{
+	width: 98%;
+	cursor:pointer;
+	background-color: #3b3b3b;
+	color:#fff;
+}
+footer{
+	margin-top:150px;
+	padding:25px;
+	border-top: 1px solid #elelel;
+	color:#a8a8a8;
+	font-size: 14px;
+}
+footer.container{
+	display: flex;
+	justify-content: space-between;
+}
+
+footer nav ul li{
+	float: left;
+}
+
+footer nav ul li a{
+	color:#a8a8a8;
+	padding: 0 15px 0 15px;
+}
+
+footer nav ul li a:hover{
+	text-decoration: underline;
+}
+
+
+@media(max-width:1500px){
+	#hero-area	#hero-text{
+		width:40%;
+		padding-right: 20px;
+
+	}
+}
+@media(max-width: 1274px){
+	.manish-image{
+		width:100%;
+
+	}
+}
+@media(max-width:1090px){
+	.manish-image{
+		width:90%;
+	}
+	#hero-image{
+		text-align:right; 
+		float: right;
+		padding-left: 700px;
+	}
+	#hero-social ul{
+		float:right;
+	}
+}
+@media(max-width:900px){
+	 header .container{
+	 	display: block;
+	 }
+	 .manish-image{
+	 	width: 100%
+	 }
+	 #hero-area #hero-text{
+	 	width: 70%
+	 	padding-right:20px;
+	 }
+	#hero-image{
+		width: 60%;
+		float: right;
+	}
+	header #branding h1{
+		text-align: center;
+	}
+	header nav ul{
+		display: flex;
+		justify-content:space-around;
+		margin-top: 30px;
+	}
+	header nav ul li{
+		flaot:none;
+	}
+	#contact form .form-button{
+		width: 99%;
+	}
+}
+@media(max-width:650px){
+	#hero-area .container{
+		margin-top: -30px;
+		display: block;
+		text-align: center;
+		width: 100%;
+	}
+
+	#hero-area #hero-text{
+		width: 90%;
+		padding: 0;
+		margin: auto;
+	}
+
+	#hero-image{
+		margin: 0 0 15px 15px;
+		margin-top: 40px;
+		margin-right: 100px;
+		margin-left: 700px;
+		overflow: auto;
+		float:right;
+
+
+
+	}
+
+	#hero-social{
+		display: flex;
+		justify-content: center;
+	}
+
+	#contact form .form-button{
+		width: 100%;
+	}
+
+	footer .container{
+		display: block;
+		text-align: center;
+	}
+
+	footer p{
+		margin-bottom: 10px;
+	}
+	
+
+}
